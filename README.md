@@ -50,3 +50,9 @@ If the installation fails, check the `Install-FreeCAD.log` in the installation f
 
 ## License
 This project is free and unencumbered software released into the public domain. For more information, see the [LICENSE](LICENSE) file or visit [unlicense.org](https://unlicense.org).
+
+## Third-Party Software / Credits
+This project distributes a standalone version of the 7-Zip command-line tool (`7zr.exe`) to extract the downloaded archives. 
+* **7-Zip** is copyrighted by Igor Pavlov.
+* Most of the 7-Zip source code is licensed under the **GNU LGPL** (Lesser General Public License). The unRAR restriction does not apply to the `7zr.exe` version.
+* For more information, the full license text, and to download the original source code, please visit the official website: [https://www.7-zip.org/](https://www.7-zip.org/)
