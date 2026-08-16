@@ -120,7 +120,7 @@ Write-Log "Enforcing TLS 1.2 for GitHub API..."
 
 Write-Log "Fetching release information from GitHub..."
 try {
-    $releases = Invoke-RestMethod -Uri 'https://api.github.com/repos/FreeCAD/FreeCAD/releases' -UserAgent "FreeCAD-Portable-Installer/0.5.9"
+    $releases = Invoke-RestMethod -Uri 'https://api.github.com/repos/FreeCAD/FreeCAD/releases' -UserAgent "FreeCAD_Windows_Portable_Deployer/1.0.0"
     Write-Log "Successfully fetched release data." -Type "SUCCESS"
 } catch {
     Write-Log "Error fetching release data from GitHub: $_" -Type "ERROR"
